@@ -141,7 +141,7 @@ a {
   padding: 32px 0;
   display: inline-flex;
   align-items: center;
-  transition: color 250ms var(--timing-function) ;
+  transition: color 250ms var(--timing-function);
 }
 .contact-icon {
   margin-right: 10px;
@@ -355,7 +355,7 @@ a {
   border-radius: 50%;
   fill: currentColor;
   color: var(--social-link-icon-color);
-  transition: color 250ms var(--timing-function),background-color 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 .social-list {
   margin-right: 10px;
@@ -363,7 +363,6 @@ a {
 .button-icon {
   width: 20px;
   height: 20px;
-
 }
 .social-link:hover,
 .social-link:focus {
@@ -491,7 +490,7 @@ a {
   align-items: center;
   justify-content: center;
   color: var(--social-link-icon-color);
-  fill:currentColor;
+  fill: currentColor;
   transition: border 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 .client-list {
@@ -581,7 +580,6 @@ a {
 .footer-icon {
   width: 20px;
   height: 20px;
-
 }
 .link-wrapp {
   margin-left: 70px;
@@ -637,4 +635,17 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-form {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.form-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.checkbox-btn {
+  flex-direction: row-reverse;
 }
