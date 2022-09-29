@@ -583,7 +583,62 @@ a {
 }
 .link-wrapp {
   margin-left: 70px;
+}.footer-form-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--secondary-text-color);
+  margin-bottom: 20px;
 }
+.wrapp-form{
+  margin-left: 95px;
+}
+.footer-email-form{
+  color: var(--secondary-text-color);
+  padding: 15px 0 15px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 360px;
+  height: 50px;
+  outline: none;
+  background-color: var(--background-color-site);
+}
+.subscribe-btn{
+margin-left:10px ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+justify-content:center;
+align-items: center;
+cursor: pointer;
+letter-spacing: 0.06em;
+fill: currentColor;
+color: var(--secondary-text-color);
+background-color: var(--active-elements-color);
+border-radius: 4px;
+border: 0;
+padding: 10px 28px;
+transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+background-color: var(--background-btn-color);
+}
+.send-email {
+  display: flex;
+}
+.send-icon {
+  display: block;
+  margin-left: 10px;
+}
+
+/* modal */
+
 .backdrop {
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -636,6 +691,7 @@ a {
   visibility: hidden;
   pointer-events: none;
 }
+
 .modal-form {
   display: flex;
   margin-left: 30px;
@@ -644,7 +700,6 @@ a {
 .form-list {
   display: flex;
   flex-direction: column;
-  padding: 0;
 }
 .checkbox-btn {
   flex-direction: row-reverse;

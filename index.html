@@ -315,7 +315,7 @@
     <!-- footer section -->
     <footer class="footer-section section">
       <div class="container footer-container">
-        <div class="">
+        <div>
           <a href="" class="footer-logo" lang="en"><span class="logo">Web</span>Studio</a>
           <address>
             <ul class="list">
@@ -371,12 +371,22 @@
             </li>
           </ul>
         </div>
+        <div class="wrapp-form">
+          <p class="footer-form-title">Підпишіться на розсилку</p>
+          <form class="send-email">
+            <label for="send-email"></label>
+            <input class="footer-email-form" type="email" placeholder="E-mail" id="send-email" name="send-email">
+            <button type="submit" class="subscribe-btn">Підписатися<svg class="send-icon" width="24" height="24">
+              <use href="./css/img/icons.svg#icon-send"></use>
+            </svg></button>
+          </form>
+        </div>
       </div>
     </footer>
        <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-          <svg class="close-icon"><use href="./css/img/icons.svg#icon-vector"></use></svg>
+          <svg class="close-icon" ><use href="./css/img/icons.svg#icon-vector"></use></svg>
         </button>
         <div role="group" class="modal-form">
           <form>
@@ -396,7 +406,7 @@
           <div class="form-list checkbox-btn ">
           <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
           <input type="checkbox" name="checkbox" id="checkbox"/></div>
-          <button type="submit">Відправити</button>
+          <button type="submit" class="subscribe-btn">Відправити</button>
         </div>
         </form>
       </div>
