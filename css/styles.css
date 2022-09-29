@@ -691,11 +691,17 @@ background-color: var(--background-btn-color);
   visibility: hidden;
   pointer-events: none;
 }
-
+.modal-title{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .modal-form {
   display: flex;
   margin-left: 30px;
   margin-top: 50px;
+  flex-direction: column;
+  margin: 10px 40px 20px 40px;
 }
 .form-list {
   display: flex;
@@ -703,4 +709,13 @@ background-color: var(--background-btn-color);
 }
 .checkbox-btn {
   flex-direction: row-reverse;
+}
+.info-form{
+  width: 100%;
+}
+.icon-contact-info{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  display: block;
 }

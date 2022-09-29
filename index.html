@@ -375,39 +375,65 @@
           <p class="footer-form-title">Підпишіться на розсилку</p>
           <form class="send-email">
             <label for="send-email"></label>
-            <input class="footer-email-form" type="email" placeholder="E-mail" id="send-email" name="send-email">
-            <button type="submit" class="subscribe-btn">Підписатися<svg class="send-icon" width="24" height="24">
-              <use href="./css/img/icons.svg#icon-send"></use>
-            </svg></button>
+            <input
+              class="footer-email-form"
+              type="email"
+              placeholder="E-mail"
+              id="send-email"
+              name="send-email"
+            />
+            <button type="submit" class="subscribe-btn">
+              Підписатися<svg class="send-icon" width="24" height="24">
+                <use href="./css/img/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
-       <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-          <svg class="close-icon" ><use href="./css/img/icons.svg#icon-vector"></use></svg>
+          <svg class="close-icon"><use href="./css/img/icons.svg#icon-vector"></use></svg>
         </button>
-        <div role="group" class="modal-form">
-          <form>
-          <p>Залиште свої дані, ми вам передзвонимо</p>
-          <div class="form-list">
-          <label for="text">Ім'я</label>
-          <div><input type="text" name="text" id="text"/></div></div>
-          <div class="form-list">
-          <label for="tel">Телефон</label>
-          <div><input type="tel" name="tel" id="tel"/></div></div>
-          <div class="form-list">
-          <label for="email">Пошта</label>
-          <div><input type="email" name="email" id="email"/></div>
-          <div class="form-list">
-          <label for="coment">Коментар</label>
-          <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Введіть текст"></textarea></div>
-          <div class="form-list checkbox-btn ">
-          <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
-          <input type="checkbox" name="checkbox" id="checkbox"/></div>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="form-list modal-form">
+          <div role="group">
+            <label for="text">Ім'я</label>
+            <div class="logo-position">
+              <svg class="icon-contact-info">
+                <use href="./css/img/icons.svg#icon-person-black"></use>
+              </svg>
+              <input class="info-form" type="text" name="text" id="text" />
+            </div>
+            <label for="tel">Телефон</label>
+            <div class="logo-position">
+              <svg class="icon-contact-info">
+                <use href="./css/img/icons.svg#icon-phone-black"></use>
+              </svg>
+              <input class="info-form" type="tel" name="tel" id="tel" />
+            </div>
+            <label for="email">Пошта</label>
+            <div class="logo-position">
+              <svg class="icon-contact-info">
+                <use href="./css/img/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+            <input class="info-form" type="email" name="email" id="email" />
+            <label for="coment">Коментар</label>
+            <textarea
+              name="coment"
+              id="coment"
+              cols="30"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+          <label for="checkbox"
+            >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
+          >
+          <input type="checkbox" name="checkbox" id="checkbox" />
           <button type="submit" class="subscribe-btn">Відправити</button>
-        </div>
         </form>
       </div>
     </div>
