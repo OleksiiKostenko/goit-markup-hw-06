@@ -676,7 +676,8 @@ a {
   background-color: var(--secondary-text-color);
   transition: color 250ms var(--timing-function);
 }
-.close-btn:hover {
+.close-btn:hover,
+.close-btn:focus {
   color: var(--active-elements-color);
 }
 .close-icon {
